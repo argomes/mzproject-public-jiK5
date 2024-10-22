@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "parameters",
+  "info": {
+    "singularName": "parameter",
+    "pluralName": "parameters",
+    "displayName": "Parameter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "kofi": {
+      "type": "string"
+    },
+    "value_per_day": {
+      "type": "decimal"
+    },
+    "kofi_type_description_donation": {
+      "type": "string"
+    },
+    "kofi_type_description_subscribe": {
+      "type": "string"
+    },
+    "minimum_monthly_amount": {
+      "type": "decimal"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_configuration_categories",
+  "info": {
+    "displayName": "category",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

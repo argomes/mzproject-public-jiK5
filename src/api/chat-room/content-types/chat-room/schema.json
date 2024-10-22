@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chat_rooms",
+  "info": {
+    "singularName": "chat-room",
+    "pluralName": "chat-rooms",
+    "displayName": "ChatRoom",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "room_name": {
+      "type": "string"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "live_stream": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::live-stream.live-stream",
+      "mappedBy": "chat_room"
+    }
+  }
+}

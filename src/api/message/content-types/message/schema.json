@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "messages",
+  "info": {
+    "singularName": "message",
+    "pluralName": "messages",
+    "displayName": "message"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "chat_room": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::chat-room.chat-room"
+    },
+    "member": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::member.member"
+    },
+    "content_message": {
+      "type": "string"
+    },
+    "moderate": {
+      "type": "boolean"
+    }
+  }
+}

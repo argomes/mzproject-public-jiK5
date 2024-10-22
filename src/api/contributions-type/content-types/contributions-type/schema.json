@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contributions_types",
+  "info": {
+    "singularName": "contributions-type",
+    "pluralName": "contributions-types",
+    "displayName": "Contributions Type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "unique": true
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

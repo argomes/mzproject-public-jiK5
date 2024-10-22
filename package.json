@@ -1,0 +1,40 @@
+{
+  "name": "mztupe-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "deploy": "strapi deploy"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.0.0",
+    "@strapi/plugin-users-permissions": "5.0.0",
+    "@strapi/provider-email-nodemailer": "^4.25.11",
+    "@strapi/provider-email-sendgrid": "^5.0.2",
+    "@strapi/strapi": "5.0.0",
+    "@types/web-push": "^3.6.3",
+    "better-sqlite3": "8.6.0",
+    "pg": "^8.12.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "socket.io": "^4.8.0",
+    "styled-components": "^6.0.0",
+    "web-push": "^3.6.7"
+  },
+  "author": {
+    "name": "Anderson Rodrigues Gomes"
+  },
+  "strapi": {
+    "uuid": "489f7f15-cff5-4d68-9edb-5fe1caf1777c"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

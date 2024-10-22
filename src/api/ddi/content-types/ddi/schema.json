@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ddis",
+  "info": {
+    "singularName": "ddi",
+    "pluralName": "ddis",
+    "displayName": "DDI"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ddi": {
+      "type": "integer"
+    },
+    "country": {
+      "type": "string"
+    },
+    "emoji": {
+      "type": "string"
+    }
+  }
+}

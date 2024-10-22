@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "singularName": "member",
+    "pluralName": "members",
+    "displayName": "Member",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "payment_date": {
+      "type": "datetime"
+    },
+    "validate_date": {
+      "type": "datetime"
+    },
+    "birth_date": {
+      "type": "date"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "profile_picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "contributions_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::contributions-type.contributions-type"
+    },
+    "document": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "subscription_push_notification": {
+      "type": "json"
+    },
+    "payload_contribution": {
+      "type": "json"
+    },
+    "notifications": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::notification.notification",
+      "mappedBy": "member"
+    }
+  }
+}

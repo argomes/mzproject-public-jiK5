@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "index_pages",
+  "info": {
+    "singularName": "index-page",
+    "pluralName": "index-pages",
+    "displayName": "Index Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text_footer": {
+      "type": "richtext"
+    },
+    "social_medias": {
+      "type": "json"
+    }
+  }
+}
